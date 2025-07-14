@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Video Editor & Design Grafis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/Logo M.png">
+</head>
+<body>
+    <audio id="background-audio" autoplay loop>
+        <source src="assets/I have no enemies.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#hero" class="logo"> <img src="assets/Logo M.png" class="logonew">&ensp;Porto<span>Folio</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Saya <span>Musyaffa</span>, <br>Video Editor & <span>Design Grafis</span></h1>
+                <p>Menciptakan visual yang memukau dengan sentuhan kreatif dan teknis yang presisi. Spesialis dalam video editing, motion graphics, dan desain branding.</p>
+                <a href="#portfolio" class="btn btn-primary">Lihat Portfolio</a>
+            </div>
+            <div class="hero-image floating">
+                <img src="assets/Hero Image.jpg" alt="Kreator media sedang mengedit video di studio dengan berbagai peralatan digital dan tampilan neon ungu" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya seorang profesional kreatif dengan pengalaman lebih dari 5 tahun di bidang video editing dan desain grafis. Spesialisasi saya mencakup video promosi, motion graphics, dan desain branding.</p>
+                    <p>Pendekatan saya adalah menggabungkan estetika visual yang kuat dengan narasi yang menarik untuk menciptakan karya yang tidak hanya indah tetapi juga efektif mencapai tujuannya.</p>
+                    <p>Saat tidak mengedit video, saya suka eksplorasi teknik animasi baru dan fotografi digital untuk terus mengembangkan skill dan kreativitas.</p>
+                    <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/About IMG.jpg" alt="Potret profesional Farhan dengan background gelap dan efek cahaya neon ungu" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfolio Terbaik</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="video">Video Editing</button>
+                <button class="filter-btn" data-filter="motion">Motion Graphics</button>
+                <button class="filter-btn" data-filter="design">Design Grafis</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="video">
+                    <img src="assets/Edit Video 1.png" alt="Video iklan produk dengan efek transisi dinamis dan color grading cinematic" />
+                    <div class="portfolio-overlay">
+                        <h3>Video Reels Lukisan</h3>
+                        <p>Video reels 30 detik untuk konten promosi Lukisan.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1bcqFK6HdpvGrxWTmwMp_HQz8oCzkZS_y" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="motion">
+                    <img src="assets/Motion Graphics Kuro T Shisqrt.gif" alt="Animasi logo perusahaan dengan efek partikel dan neon ungu" />
+                    <div class="portfolio-overlay">
+                        <h3>Motion Graphic T-Shirt</h3>
+                        <p>Animasi intro untuk brand apparel Kuro.</p>
+                        <a href="https://drive.google.com/file/d/1J4FcGfgnQa6ymbz2gytJjcbvxc219lJB/view?usp=drive_link" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="assets/Feeds Instagram SG.png" alt="Feeds Design dan efek bayangan neon" />
+                    <div class="portfolio-overlay">
+                        <h3>Feeds Instagram Design</h3>
+                        <p>Desain visual untuk tata letak dan konten di feed Instagram yang konsisten, menarik, dan sesuai dengan identitas merek pada Sosial Gadget.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1j7YVfcM8Setn6S6sOqu3sN3Na5tUUHjS" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="assets/Feeds Instagram MST.png" alt="Feeds Design dan efek bayangan neon" />
+                    <div class="portfolio-overlay">
+                        <h3>Feeds Instagram Design</h3>
+                        <p>Desain visual untuk tata letak dan konten di feed Instagram yang konsisten, menarik, dan sesuai dengan identitas merek pada PT.Multi Sistem Teknologi.</p>
+                        <a href="https://drive.google.com/drive/folders/1dfXa5s0vQD1d0-OcN7BgbBsVu8GtoiZC?usp=drive_link" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="assets/Feeds Instagram CS.png" alt="Feeds Design dan efek bayangan neon" />
+                    <div class="portfolio-overlay">
+                        <h3>Feeds Instagram Design</h3>
+                        <p>Desain visual untuk tata letak dan konten di feed Instagram yang konsisten, menarik, dan sesuai dengan identitas merek CS Store.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1UyOo1Kfk0DBifYp-tTED77KJ7OvZcYBH" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="video">
+                    <img src="assets/Edit Video 2.png" alt="Video musik dengan efek visual glitch dan color grading dramatis" />
+                    <div class="portfolio-overlay">
+                        <h3>Video Reels PT. Multi Sistem Teknologi</h3>
+                        <p>Video reels 30 detik untuk konten promosi produk Perusahaan.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1cal2Sa_5KJVJbfPERFh8vf8UCLwqc_ZB" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="motion">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/22ac576d-effd-495c-ba8a-946c4da0b41e.png" alt="Animasi explainer video dengan karakter ilustrasi dan tampilan infografis" />
+                    <div class="portfolio-overlay">
+                        <h3>Explainer Video</h3>
+                        <p>Desain visual untuk tata letak dan konten di feed Instagram yang konsisten, menarik, dan sesuai dengan identitas merek.</p>
+                        <a href="#" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="assets/pocari.png" alt="Flat Design dan efek bayangan neon" />
+                    <div class="portfolio-overlay">
+                        <h3>Flat Illustration</h3>
+                        <p>Ilustrasi visual dua dimensi dengan warna solid dan bentuk sederhana, cocok untuk poster, kemasan, dan media digital yang membutuhkan gaya modern dan minimalis.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1f3giwK2icpwvIqvMBCubaqGuDbmFU_vZ" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="assets/Painting Wajah.png" alt="Feeds Design dan efek bayangan neon" />
+                    <div class="portfolio-overlay">
+                        <h3>Digital Painting</h3>
+                        <p>Desain visual untuk tata letak dan konten di feed Instagram yang konsisten, menarik, dan sesuai dengan identitas merek CS Store.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/1fObM7rzZ99y7D7hWPuoAeN8iCfGX4Edp" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="assets/Poster COPA DEL REY.png" alt="Feeds Design dan efek bayangan neon" />
+                    <div class="portfolio-overlay">
+                        <h3>Desain Poster</h3>
+                        <p>Desain visual untuk tata letak dan konten di feed Instagram yang konsisten, menarik, dan sesuai dengan identitas merek CS Store.</p>
+                        <a href="https://drive.google.com/drive/u/0/folders/13V2VYKbjTvXBYkN9kLnDCF-BZdfKm44w" class="btn btn-primary">Detail Proyek</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Keahlian Saya</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass">
+                    <div class="skill-icon">🎬</div>
+                    <h3>Video Editing</h3>
+                    <p>Pengeditan video profesional dengan Adobe Premiere Pro dan After Effects.</p>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-icon">💫</div>
+                    <h3>Motion Graphics</h3>
+                    <p>Pembuatan animasi dan grafis gerak untuk berbagai kebutuhan visual.</p>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Visual Effects</h3>
+                    <p>Penerapan efek visual untuk meningkatkan kualitas produksi video.</p>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-icon">✏️</div>
+                    <h3>Graphic Design</h3>
+                    <p>Desain branding, publikasi, dan material promosi lainnya.</p>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-icon">📊</div>
+                    <h3>Color Grading</h3>
+                    <p>Penyesuaian warna untuk menciptakan mood dan atmosfer yang tepat.</p>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-icon">🎥</div>
+                    <h3>Cinematography</h3>
+                    <p>Pemahaman dasar pengambilan gambar dan komposisi visual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info glass">
+                    <h3>Mari Bekerja Sama!</h3>
+                    <p>Saya selalu terbuka untuk proyek-proyek baru dan kolaborasi kreatif. Jangan ragu untuk menghubungi saya melalui formulir atau informasi kontak di bawah ini.</p>
+                    <div class="contact-details">
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <span>musyaffaf99@gmail.com</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <span>+62 815 1773 7083</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tangerang, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form glass">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Anda</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="kirimBtn">Kirim message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">Porto<span>Folio</span></a>
+                <p>Video Editor & Design Grafis Profesional</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="copyright">
+                © 2025 Musyaffa Portfolio. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio Element -->
+    <audio id="background-audio" autoplay loop>
+        <source src="assets/I have no enemies.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>    
+
+    <script>
+        //Musik Background
+        window.onload = function() {
+            const audio = document.getElementById('background-audio');
+            audio.play().catch(function(error) {
+                console.log('Audio playback prevented:', error);
+            });
+        }
+
+        // Mobile Navigation
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 0);
+        });
+
+        // Portfolio Filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.dataset.filter;
+
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Form Submission
+        const nomorWhatsapp = '6281517737083'; // Ganti dengan nomor WhatsApp Anda (kode negara tanpa +)
+        const emailTujuan = 'musyaffaf99@gmail.com'; // Ganti dengan email tujuan
+        document.getElementById('kirimBtn').addEventListener('click', () => {
+            // Ambil nilai dari form
+            const name = encodeURIComponent(document.getElementById('name').value.trim());
+            const email = encodeURIComponent(document.getElementById('email').value.trim());
+            const subject = encodeURIComponent(document.getElementById('subject').value.trim());
+            const message = encodeURIComponent(document.getElementById('message').value.trim());
+            if (!name || !email || !subject || !message) {
+            alert('Mohon lengkapi semua form terlebih dahulu.');
+            return;
+            }
+            // Contoh isi message WhatsApp yang ingin dikirim
+            const messageWa = `Halo, Nama saya ${name}. Saya ingin menyampaikan pesan berikut:%0A%0Asubject: ${subject}%0A%0Apesan: ${message}%0A%0AEmail saya: ${email}`;
+            // Buat juga mailto link
+            const mailtoLink = `mailto:${emailTujuan}?subject=${subject}&body=Halo, saya ${name}. Berikut message saya:%0A${message}%0A%0AEmail saya: ${email}`;
+            // Pilihan: buka WhatsApp dulu, lalu email; atau sebaliknya
+            // Contoh membuka WhatsApp:
+            window.open(`https://wa.me/${nomorWhatsapp}?text=${messageWa}`, '_blank');
+            
+            // Contoh membuka email di tab baru:
+            // window.open(mailtoLink, '_blank');
+            });
+    </script>
+    
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
